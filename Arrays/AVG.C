@@ -1,14 +1,15 @@
 /* Average  -  Calculate sum and average of a list of elements. Also count how many elements in the list are less than average and more than average */
 
 #include  <stdio.h>
-#include  <conio.h>
+// #include  <conio.h>
 
-void main()
+int main()
 {
   int  i , n , less=0 , more=0 ;
   float  x[50] , sum=0 , avg ;
 
-  clrscr() ;
+//   clrscr() ;
+
   printf("Enter the number of elements: ") ;
   scanf("%d" , &n) ;
   printf("Enter the elements: \n") ;
@@ -33,7 +34,8 @@ void main()
   printf("No. of elements more than average is: %d \n" , more) ;
   printf("No. of elements less than average is: %d \n" , less) ;
 
-  getch();
+//   getch();
+  return 0;
 }
 
 /*
